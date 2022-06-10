@@ -26,12 +26,12 @@
                         <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal1" href="# " role="button">Registration</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="# ">Login</a>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal2" href="#">Login</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link btn btn-md btn-success btn-nav " href="# ">
-                    Sell
-                </a>
+                            Sell
+                        </a>
                     </li>
                 </ul>
 
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <nav>
+        <!-- <nav>
             <div class="mt-4 p-5 pt-20 bg-dark text-white rounded">
 
                 <div class="d-flex justify-content-center">
@@ -104,13 +104,140 @@
 
                     <img class="img-fluid hide-sm" src="img/image-removebg-preview.png" alt="image" />
                 </div>
-        </nav>
+        </nav> -->
+
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
+        <script src="js/index.js "></script> -->
+
+    <div class="mt-4 p-5 pt-20 bg-dark text-white rounded">
+
+        <div class="d-flex justify-content-center">
+            <div class="row">
+                <div class="mt-5 p-4 col-sm-12 col-xs-12">
+                    <h1>Ruthie's Empire</h1>
+                    <p>your best plug for all items</p>
+                    <div class="ml-3">
+                        <a href="#" class="btn btn-lg btn-success shadow"><i class='bx bxs-shopping-bag'></i> Buy</a> ||
+                        <a href="#" class="btn btn-lg btn-danger shadow"><i class='bx bxs-cart-add'></i> Sell</a>
+                    </div>
+                </div>
+            </div>
+
+            <img class="img-fluid hide-sm" src="img/image-removebg-preview.png" alt="image" />
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-margin">
+                    <h4 class="modal-title">Register via email and phone</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body ">
+                    <div class="input-group input-group-lg flex-nowrap">
+
+                        <input type="email" class="form-control mb-4 p-3 mx-4" placeholder="Enter email" aria-label="Enter email" required="" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group input-group-lg flex-nowrap input-field">
+
+                        <input type="password" class="form-control mb-4 p-3 mx-4" placeholder="Password" aria-label="Enter password" maxlength="20" required="" aria-describedby="addon-wrapping ">
+                        <i class='bx bx-show bx-sm showHidePw'></i>
+                    </div>
+                    <div class="input-group input-group-lg flex-nowrap ">
+
+                        <input type="text " class="form-control mb-4 p-3 mx-4 " placeholder="First name " aria-label="Enter name " required="" aria-describedby="addon-wrapping ">
+                    </div>
+                    <div class="input-group input-group-lg flex-nowrap ">
+
+                        <input type="text " class="form-control mb-4 p-3 mx-4 " placeholder="Last name (optional) " aria-label="Enter Last name " required="" aria-describedby="addon-wrapping ">
+                    </div>
+                    <div class="input-group input-group-lg flex-nowrap ">
+
+                        <input type="tel " class="form-control mb-2 p-3 mx-4 " placeholder="Phone number(digits only) " aria-label="Enter email " required="" aria-describedby="addon-wrapping ">
+                    </div>
+                    <div class="form-check ms-4 w-35 chck-c "><input type="checkbox " name="checkbox " id="chck " class="form-check-input chck-c "></input><label for=" " class="form-check-label ">I agree to all rules</label>
+                    </div>
+                </div>
+                <div class="d-grid mx-5 mb-3 ">
+                    <button type="button " class="btn btn-success btn-block ">Register</button>
+                    <span class=" ">Already have an account?<a href="# " class="text-success ">Login</a></span>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-12 text-center ">
+                        <button class="btn btn-md btn-outline-dark bg-light text-black btn-w "><i class='bx bxl-google bx-md text-danger'></i>Google</button>
+                        <button class="btn btn-md text-primary btn-w "><i class='bx bxl-facebook bx-md text-primary '></i>Facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content modal-contents">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">sign in via email or phone</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form class="pb-2">
+                        <div class="mb-3 mt-3">
+
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email or phone">
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <p class="moveFp">Forget your password</p>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="SIGN IN" class="btn btn-success btn-block changesz">SIGN IN</button>
+                        </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="mx-auto">
+                    <p>Don't have an account?<a class="reg text-success text-decoration-none" href="#">Registration</a></p>
+                </div>
+
+
+                <div class="justify-content-center row">
+                    <div class="col-md-4 col-md-offset-2">
+                        <button type="button" class="btn btn-outline-dark btn-lg btn-login">Google</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-primary btn-lg btn-login">Facebook</button>
+                    </div>
+                </div>
+            </div>
 
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
-        <script src="js/index.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 
 </html>
