@@ -26,5 +26,25 @@ float:right !important;
 }
 
 .search{
-    margin-top: 50p;
+    padding: 0 auto;
+    width: 300px;
+}
+
+.logo2{
+    margin-right: 0 auto;
+    width: 70px;
+}
+.padmove{
+    margin-top: 10px;
+    
+}
+
+.colorchange{
+    height: 70px;
+    background-color: #0cbe0c;
+    color: white;
+}
+
+.sizes{
+    margin-top: 20px;
 }
