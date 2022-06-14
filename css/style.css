@@ -48,3 +48,17 @@ float:right !important;
 .sizes{
     margin-top: 20px;
 }
+
+.backgcl{
+    background-color: hsla(0, 4%, 78%, 0.205);
+}
+
+.logo-7{
+    margin-left: 22px;
+    position: relative;
+    top: 11px;
+    background: white;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
