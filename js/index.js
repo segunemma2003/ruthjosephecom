@@ -23,3 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     // end if innerWidth
 });
+console.warn('This is not a vistor\'s area');;
